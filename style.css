@@ -1,31 +1,26 @@
-body{
-	font-family: Arial, sans-serif;
-	font-size: 20px;
-	line-height: 26px; 
-	margin: 0;
-	padding: 0;
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
 }
 
-header{
-	background-image: url(PSD/NavbarPanel.png); 
-	color: white;
-	background-size: 100% 70px; 
-	background-repeat: no-repeat; 
-	font-size: 100% 70px;
+ul li {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
 }
 
-ul li{
-	display: inline;
-	padding-right: 30px;
-    position: relative;
+header {
+    background-image: url(PSD/NavbarPanel.png);
+    color: white;
+    background-size: 100%;
+    font-size: 100% 70px;
 }
 
 ul {
-	margin-left: 1200px;
-	padding-bottom: 140px;
- }
-
-.Logo-header{
-	padding-top: 30px;
-	padding-left: 30px;
-} 
+    list-style: none;
+    display: webkids-flex;
+    display: flex;
+}
